@@ -1,0 +1,331 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/fondo4.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* variables */
+:root {
+    --colorgris: rgb(117, 117, 117);
+    --fuente1: Cherry Lime;
+    --fuente2: a little sunshine;
+    --fuente3: background echo demo;
+    --color1: #e7e6f7;
+    --color2: #e3d0d8;
+    --color3: #aea3b0;
+    --color4: #827081;
+    --color5: #c6d2ed;
+}
+/* fin variables */
+
+/* header */
+.header {
+    background-color: var(--color1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header:hover {
+    background-color: var(--color5);
+    transition: 600ms;
+}
+
+.logo {
+    width: 40px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 50px;
+    font-family: var(--fuente3);
+    font-size: 25px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    background-color: var(--color3);
+    color: yellow;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 500ms;
+}
+/* fin header */
+
+/* página principal */
+.main iframe {
+    margin-top: 40px;
+}
+
+.caja1 {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--color1);
+    width: 600px;
+}
+
+.caja h1 {
+    font-family: var(--fuente1);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.caja p {
+    font-family: var(--fuente2);
+    font-size: 25px;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+    width: 70px;
+    height: 25px;
+    margin-bottom: 20px;
+    background-color: var(--color3);
+    padding: 20px;
+    border-radius: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: var(--fuente2);
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a:hover {
+    background-color: var(--color5);
+    color: yellow;
+    transition: 500ms;
+}
+/* fin página principal */
+
+/* boton regresar */
+.regresar {
+    background-color: var(--color3);
+    width: 200px;
+    height: 50px;
+    margin: 50px;
+    border: 0px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 580px;
+}
+
+.regresar a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: var(--fuente1);
+}
+
+.regresar:hover {
+    background-color: var(--color5);
+    width: 250px;
+    margin-left: 560px;
+    transition: 500ms;
+}
+
+.regresar a:hover {
+    color: var(--color3);
+}
+/* fin boton regresar */
+
+/* resume */
+.resume h1 {
+    background-color: var(--color4);
+    width: 600px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fuente1);
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.resume h1:hover {
+    background-color: var(--colorgris);
+    transition: 600ms;
+}
+
+.resume p {
+    margin-left: 270px;
+    margin-right: 270px;
+    padding: 40px;
+    background-color: var(--color2);
+    font-family: var(--fuente2);
+    font-size: 20px;
+}
+
+.education {
+    background-color: var(--color2);
+    margin-bottom: 20px;
+}
+
+.education h2 {
+    font-size: 20px;
+    margin: 0px;
+    font-family: var(--fuente3);
+}
+
+.education td {
+    margin: 10px;
+    padding: 15px;
+    font-family: var(--fuente2);
+    font-size: 20px;
+}
+
+.skills {
+    margin-left: 270px;
+    margin-right: 270px;
+    padding: 20px;
+    background-color: var(--color2);
+    font-family: var(--fuente2);
+    font-size: 20px;
+    display: flex;
+}
+/* fin resume */
+
+/* projects */
+.projects h1 {
+    background-color: var(--color4);
+    width: 600px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fuente1);
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.projects h1:hover {
+    background-color: var(--colorgris);
+    transition: 600ms;
+}
+
+.proyecto1 {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--color2);
+    font-family: var(--fuente2);
+    font-size: 20px;
+    display: flex;
+}
+
+.proyecto1 h2 {
+    font-size: 30px;
+    margin: 0px;
+    font-family: var(--fuente3);
+}
+
+.project {
+    margin-left: 20px;
+}
+
+.foto1 {
+    width: 150px;
+    height: 140px;
+}
+/* fin projects */
+
+/* contact */
+.contact h1 {
+    background-color: #827081;
+    width: 600px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fuente1);
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.contact h1:hover {
+    background-color: var(--colorgris);
+    transition: 600ms;
+}
+
+.formulario {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: var(--color1);
+}
+
+.formulario form {
+    padding: 20px;
+}
+.formulario label {
+    font-family: var(--fuente2);
+    font-size: 20px;
+}
+
+.formulario input {
+    font-family: var(--fuente2);
+    font-size: 20px;
+    width: 300px;
+}
+
+.formulario p {
+    padding-right: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: var(--fuente2);
+    text-align: justify;
+}
+
+.enviar {
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--color4);
+}
+
+.enviar:hover {
+    background-color: yellow;
+    transition: 700ms;
+}
+/* fin de contact */
